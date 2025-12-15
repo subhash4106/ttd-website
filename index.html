@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TTD - Tirumala Tirupati Devasthanam</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+
+    #bg-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+.bg-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
+
+  </style>
+</head>
+<body>
+  <video id="bg-video" autoplay muted loop playsinline>
+    <source src="bg-video.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+  <div class="bg-overlay"></div>
+
+  <header>
+    <div class="logo-title">
+      <img src="https://media.telanganatoday.com/wp-content/uploads/2023/09/TTD-3.jpg" alt="TTD Logo"/>
+      <strong>Tirumala Tirupati Devasthanam</strong>
+    </div>
+    <nav>
+      <a onclick="showSection('home')">Home</a>
+      <a onclick="showSection('pictures')">Pictures</a>
+      <a onclick="showSection('services')">Services</a>
+      <a onclick="showSection('booking')">Ticket Booking</a>
+    </nav>
+  </header>
+
+
+
+<div class="bg-overlay"></div>
+
+
+  <header>
+    <div class="logo-title">
+      <img
+        src="https://media.telanganatoday.com/wp-content/uploads/2023/09/TTD-3.jpg"
+        alt="TTD Logo"
+      />
+      <strong>Tirumala Tirupati Devasthanam</strong>
+    </div>
+    <nav>
+      <a onclick="showSection('home')">Home</a>
+      <a onclick="showSection('pictures')">Pictures</a>
+      <a onclick="showSection('services')">Services</a>
+      <a onclick="showSection('booking')">Ticket Booking</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="home" class="section active">
+      <div class="banner-images">
+        <img
+          src="https://i1.wp.com/test.tirumalesamatrimony.com/wp-content/uploads/2015/11/Maha-Dwaram-Of-The-Tirumala-Temple.jpg?fit=964%2C528"
+          alt="Tirumala Temple"
+          class="small-banner-img"
+        />
+        <img
+          src="https://www.tirumala.org/NewImages/Gopuram.jpg"
+          alt="Tirumala Gopuram"
+          class="small-banner-img"
+        />
+      </div>
+
+      <h2>Temple History</h2>
+      <p>
+        Tirumala is one of the most visited pilgrimage destinations in India.
+         The temple, dedicated to Lord Venkateswara (an incarnation of Vishnu),
+        is located on the Tirumala hills in Andhra Pradesh. It is believed that
+        the Lord manifested here to guide devotees in Kali Yuga. The temple
+        features Dravidian architecture, gold-plated gopurams, and is managed
+        by the Tirumala Tirupati Devasthanams (TTD) trust.
+      </p>
+
+      <h2>About TTD</h2>
+      <p>
+        Tirumala Tirupati Devasthanams (TTD) is a trust that manages the
+        activities of the world-renowned Venkateswara Temple at Tirumala,
+        Andhra Pradesh. Established in 1932, TTD administers not only the main
+        temple but also several other temples across the state.
+      </p>
+      <p>
+        TTD is involved in a wide range of spiritual, cultural, educational,
+        and social activities. It provides free meals (Annadanam) to thousands
+        of pilgrims daily, operates hospitals and educational institutions, and
+        preserves ancient texts and traditions through its publications and
+        cultural programs.
+      </p>
+      <p>
+        The trust ensures a smooth darshan experience for millions of devotees
+        every year through meticulous planning, digital services like online
+        bookings, and volunteer support. TTD also promotes Hindu Dharma through
+        its Dharmic projects, support for Vedic schools, and propagation of
+        temple traditions across the globe.
+      </p>
+
+      <h2>Temple Timings</h2>
+      <table>
+        <tr><th>Seva / Darshan</th><th>Time</th></tr>
+        <tr><td>Suprabhata Seva</td><td>3:00 AM</td></tr>
+        <tr><td>Tomala Seva</td><td>5:30 AM</td></tr>
+        <tr><td>Archana</td><td>6:30 AM</td></tr>
+        <tr><td>Break Darshan</td><td>9:00 AM</td></tr>
+        <tr><td>Sarvadarshan</td><td>10:00 AM – 9:00 PM</td></tr>
+      </table>
+    </section>
+
+    <section id="pictures" class="section">
+      <h2>Tirumala Pictures</h2>
+      <div class="images-grid">
+        <img src="https://wallpaperaccess.com/full/5949327.jpg" />
+        <img src="https://dynamic.tourtravelworld.com/package-images/photo-big/dir_13/387634/258307.jpg" />
+        <img src="https://tse3.mm.bing.net/th/id/OIP.gidIVCtJW5mc-6fFpIYpjQHaGh?pid=ImgDetMain" />
+        <img src="https://w0.peakpx.com/wallpaper/963/188/HD-wallpaper-tirupathi-cloud-sky-balaji-temple-tirupati-god.jpg" />
+        <img src="https://th.bing.com/th/id/OIP.1t0NLJD43TTGJvR2W3stSAHaEc" />
+        <img src="https://tse1.mm.bing.net/th/id/OIP.0MyqKFGgtXiaGB1nWidymAHaEK" />
+        <img src="https://th.bing.com/th/id/R.17e326f83570872437d404ecfe21251a?rik=4AXYbkbAgmNTCA&riu=http%3a%2f%2f4.bp.blogspot.com%2f_SrXUtdDZEE0%2fTHunCXQhA4I%2fAAAAAAAABqY%2fZAuZevlacQY%2fs1600%2f100_1421.JPG&ehk=RbJ9f79cHeqC4Sty9hviMfXNUOswKciSXfuncMqKEZE%3d&risl=&pid=ImgRaw&r=0" />
+        <img src="https://images.herzindagi.info/image/2023/Jul/Tirumala-Tirupati-Balaji-Temple.jpg" />
+        <img src="https://www.templepurohit.com/wp-content/uploads/2015/12/5.jpg" />
+        <img src="https://www.teahub.io/photos/full/314-3141341_venkateswara-temple-on-tirumala-hills-in-tirupati-tirumala.jpg" />
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <h2>Our Services</h2>
+      <div class="services-list">
+        <div class="service-item" onclick="toggleInfo(0)">
+          <strong>1. Angapradakshinam</strong>
+          <p class="service-info">
+            Devotees roll around the temple in devotion, typically performed
+            before sunrise.
+          </p>
+        </div>
+        <div class="service-item" onclick="toggleInfo(1)">
+          <strong>2. Arjitha Sevas</strong>
+          <p class="service-info">
+            Includes paid sevas like Thomala, Archana, Kalyanotsavam,
+            performed inside sanctum.
+          </p>
+        </div>
+        <div class="service-item" onclick="toggleInfo(2)">
+          <strong>3. Special Entry Darshan</strong>
+          <p class="service-info">
+            Faster darshan with online booking and ₹300 ticket for quicker
+            access to deity.
+          </p>
+        </div>
+        <div class="service-item" onclick="toggleInfo(3)">
+          <strong>4. E-Hundi Donations</strong>
+          <p class="service-info">
+            Make online donations to the temple fund from anywhere in the
+            world.
+          </p>
+        </div>
+        <div class="service-item" onclick="toggleInfo(4)">
+          <strong>5. Donor Privileges</strong>
+          <p class="service-info">
+            Long-term donors receive benefits like accommodation, sevas, and
+            special access.
+          </p>
+        </div>
+        <div class="service-item" onclick="toggleInfo(5)">
+          <strong>6. Free Meals & Prasadam</strong>
+          <p class="service-info">
+            Devotees are served free meals daily and can collect prasadam from
+            counters.
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section id="booking" class="section">
+    <div class="booking-form">
+      <img
+        src="https://www.cdlu.in/wp-content/uploads/2022/02/tirumala-accommodation-booking.jpg"
+        style="width: 100%; max-width: 800px; height: auto; display: block; margin: 0 auto; border-radius: 8px"
+      /><br />
+      <h2>Book Your Darshan Tickets</h2>
+      <form id="bookingForm">
+        <div class="form-group">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Add:</label>
+          <input type="email" id="email" required /><br />
+        </div>
+
+        <div class="form-group">
+          <label for="date">Darshan Date:</label>
+          <input type="date" id="date" required />
+        </div>
+
+        <div class="form-group">
+          <label for="tickets">Number of Tickets:</label>
+          <input type="number" id="tickets" min="1" required />
+        </div>
+
+        <div class="form-group">
+          <label for="type">Darshan Type:</label>
+          <select id="type" required>
+            <option value="">--Select--</option>
+            <option value="General">General Darshan</option>
+            <option value="Special">Special Entry Darshan</option>
+            <option value="VIP">VIP Darshan</option>
+          </select>
+        </div>
+
+        <button type="submit">Book Now</button>
+      </form>
+
+      <div id="confirmation"></div>
+    </div>
+  </section>
+
+  <footer>Tirumala Tirupati Devasthanam | © 2025</footer>
+
+  <script>
+    function showSection(id) {
+      document.querySelectorAll(".section").forEach((section) => {
+        section.classList.remove("active");
+      });
+      document.getElementById(id).classList.add("active");
+    }
+
+    function toggleInfo(index) {
+      const allInfos = document.querySelectorAll(".service-info");
+      allInfos[index].style.display =
+        allInfos[index].style.display === "block" ? "none" : "block";
+    }
+  </script>
+</body>
+</html>
