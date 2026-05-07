@@ -38,18 +38,7 @@ The website also includes animations, background video support, responsive desig
 - CSS3
 - JavaScript
 
----
 
-## 📂 Project Structure
-
-```bash
-TTD-Website/
-│
-├── index.html
-├── style.css
-├── script.js
-├── bg-video.mp4
-└── README.md
 
 
 
