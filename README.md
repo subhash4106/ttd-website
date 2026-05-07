@@ -53,9 +53,7 @@ TTD-Website/
 
 
 
-# Output
+## Output
 <img width="1907" height="1007" alt="Image" src="https://github.com/user-attachments/assets/9970e9d4-41d8-4e07-9274-dd6d20e252fb" />
 
-<img width="1911" height="1009" alt="Image" src="https://github.com/user-attachments/assets/d608a78b-9102-4437-ae59-b59872e1b474" />
 
-<!-- Uploading "Screenshot 2025-08-11 122900.png"... -->
